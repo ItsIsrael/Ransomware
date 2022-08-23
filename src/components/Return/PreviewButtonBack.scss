@@ -1,10 +1,18 @@
 
+.container__prev__icon{
+  background-color: rgb(225, 2, 2);
+  height: 10vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .back {
   background: none;
   border: 0;
   position: relative;
   height: 60px;
   width: 60px;
+  right: 20px;
 }
 
 .top-left,
@@ -58,21 +66,21 @@
 }
 
 .text {
-  color: white;
+  color: rgb(255, 252, 252);
   font-size: 1.1rem;
   letter-spacing: 0.2rem;
   font-family: 'Roboto', sans-serif;
   position: absolute;
   bottom: 0.1rem;
-  left: 50%;
+  right: 0px;
+  top: 60px;
   margin-left: -1.7rem;
   opacity: 0;
 }
 
-// Button One
 .back--one {
   .top-left, .bottom-left {
-    transition: opacity .3s 1s;
+    transition: opacity .2s 1s;
   }
 
   .top-right, .bottom-right {
@@ -84,26 +92,32 @@
   }
 
   .text {
-    transition: opacity .3s 1s;
+    transition: opacity .2s 1s;
   }
 
   &:hover {
     .text {
       opacity: 1;
-      transition: opacity .3s .5s;
+      transition: opacity .3s .3s;
     }
     .top-left, .bottom-left {
       opacity: 0;
-      transition: opacity .3s .5s;
+      transition: opacity .3s .3s;
     }
     .top-right, .bottom-right {
       margin-left: -1.3rem;
-      transition: margin-left .5s .8s;
+      transition: margin-left .3s .8s;
     }
     .stalk {
       opacity: 1;
       margin-left: -1.2rem;
-      transition: margin-left .5s .8s, opacity .3s .5s;
+      transition: margin-left .3s .8s, opacity .3s .5s;
     }
   }
+}
+
+
+/* ----- RESPONSIVE WITH IPHONES ----- */
+@media only screen and (max-width:440px){
+
 }

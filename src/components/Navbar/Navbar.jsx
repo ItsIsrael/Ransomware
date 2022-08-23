@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
 import BurgerButton from './BurgerButton';
@@ -31,10 +31,7 @@ const Navbar = () => {
   }
   window.onresize = start;
   start();
-  useEffect(() => {
-
-  }, []);
-
+  
   return (
     <>
       <NavbarStyled>
@@ -69,6 +66,7 @@ const NavbarStyled = styled.nav`
 position: fixed;
 margin-top: -10px;
 width: 100%;
+z-index: 200;
 
 /* <------- Title for min Screens ------> */
 .title__min__screen{

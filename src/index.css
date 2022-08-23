@@ -15,6 +15,10 @@ code {
     monospace;
 }
 
+a{
+  text-decoration: none;
+}
+
 /* <-------- Styles scroll bar ---------> */
 ::-webkit-scrollbar{
   width: 14px;
