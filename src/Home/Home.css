@@ -1,0 +1,76 @@
+.container__background__img::before {
+    content: '';
+    background: url('../../public/images/Banner.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100vh;
+}
+
+/* <-------- Writer ----------> */
+.typewriter {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    font-weight: bold;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+.typewriter .text_typed {
+    font-weight: bold;
+}
+
+
+/* ATEMPT 1 */
+.variantes{
+    color: #e92929;
+    animation-name: change;
+    animation: infinite 2s ;
+}
+
+/* Responsive */
+
+@media only screen and (max-width:600px){
+    .typewriter{
+        color: rgb(255, 255, 255);
+        font-size: 50px;
+        transition: all 2s ease;
+    }
+}
+
+/* Media with Iphones */
+
+@media only screen and (max-width:440px){
+    .typewriter{
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+        transition: all 2s ease;
+    }
+    .text_typed{
+        font-size: 23px;
+    }
+}
+/* <---------------------------------------> */
+
+
+@media only screen and (max-width:300px){
+    .typewriter{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        transition: all 2s ease;
+    }
+    .text_typed{
+        font-size: 20px;
+    }
+}
