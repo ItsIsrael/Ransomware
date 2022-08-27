@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+*::selection{
+background-color: rgba(231, 176, 247, 0.849);
+}
 body {
   font-family: 'Josefin Sans', sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -1,9 +1,18 @@
 
 .container__prev__icon{
   background-color: rgb(225, 2, 2);
-  height: 10vh;
+  height: 100px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: space-between;
+  h1{
+    align-self: center;
+    font-size: 3rem;
+    margin-left: 10px;
+    span{
+      color: rgb(255, 255, 255);
+    }
+  }
 }
 
 .back {

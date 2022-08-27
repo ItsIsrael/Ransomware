@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 import Typewriter from 'typewriter-effect';
 
-
-
-import './Home.css';
+import './Home.scss';
 
 
 const HomePage = () => {

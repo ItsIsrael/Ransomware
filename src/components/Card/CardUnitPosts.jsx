@@ -16,4 +16,4 @@ const CardUnitPosts = ({ titlePostName, RefImg, description, classNameCustom, sc
   )
 }
 
-export default CardUnitPosts
+export default CardUnitPosts;

@@ -4,6 +4,7 @@ import './PreviewButtonBack.scss'
 const PreviewPage = () => {
   return (
     <div className='container__prev__icon'>
+      <h1><span>R</span>ansom<span>W</span>are</h1>
       <Link to='/' class="back back--one">
         <span class="top-left"></span>
         <span class="top-right"></span>

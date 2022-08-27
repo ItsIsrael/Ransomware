@@ -1,0 +1,42 @@
+.container__all__posts{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(248, 249, 251);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .title__post{
+        font-size: 4rem;
+        padding: 1rem;
+        font-weight: bold;
+    }
+    .title__secondary{
+        
+    }
+    .paragraph__description{
+        width: 60%;
+    }
+    .paragraph__secondary{
+        width: 60%;
+    }
+    .container__image{
+        width: 40%;
+        min-height: 20%;
+        overflow: hidden;
+        margin: 20px;
+        .img__post{
+            border-radius: 80px 120px;
+            width: 100%;
+            height: 100%;
+        }
+        
+    }
+}
+
+@media only screen and (max-width:400px){
+    .container__image{
+        width: 400px;
+        border: 1px solid red;
+    }
+}

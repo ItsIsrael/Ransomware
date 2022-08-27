@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap');
 
-$imageIds: '1517021897933-0e0319cfbc28', '1533903345306-15d1c30952de', '1545243424-0ce743321e11', '1531306728370-e2ebd9d7bb99';
-
 $bp-md: 600px;
 $bp-lg: 700px;
 $bp-xlg: 1000px;
@@ -13,11 +11,6 @@ $bp-xlg: 1000px;
   --font-sans: 'Rubik', sans-serif;
   --font-serif: 'Cardo', serif;
 }
-// TESTING 
-// *{
-// 	border: red solid 1px;
-// }
-
 
 // BTN-MORE
 
@@ -112,6 +105,11 @@ $bp-xlg: 1000px;
 
 .title__distintos{
   padding: 10px;
+  font-size: 4rem;
+  text-shadow: 2px 2px 2px gray;
+  span{
+    color: red;
+  }
 }
 .content__all__post{
 	text-align: center;
@@ -132,7 +130,7 @@ height: 100%;
 	}
 	.content__all__post{
 		text-align: center;
-		background-color: red;
+		background-color: rgb(175, 123, 218);
 		height: 100%;
 		&.btn__more{
 			display: none;
@@ -156,7 +154,7 @@ place-items: center;
   }
   
   @media (min-width: $bp-lg) {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 
 	@media (min-width: $bp-xlg) {

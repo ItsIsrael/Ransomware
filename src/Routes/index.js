@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import WannaCry from '../components/AllPost/WannaCry';
 import App from '../App';
-import Petya from '../components/AllPost/Petya';
+import Petya from '../components/AllPost/02Petya';
+import WannaCry from '../components/AllPost/01WannaCry';
 
 const RoutesNav = () => {
   return (
     <Router>
     <Routes>
   <Route path="/" element={<App />}/>
-  <Route path="WannaCry" element={<WannaCry />}/>
-  <Route path="Petya" element={<Petya />}/>
+  <Route path="WannaCry" element={< WannaCry />}/>
+  <Route path="Petya" element={< Petya />}/>
 </Routes>
 
 </Router>

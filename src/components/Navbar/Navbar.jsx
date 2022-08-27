@@ -46,7 +46,7 @@ const Navbar = () => {
             <ul className='navbar__links'>
               <li className='navbar__item' ><Link activeClass="isActive" to="home" spy={true} smooth={true} offset={-100} duration={500} onClick={clicked ? handlerClick : ''} href='/'>Inicio</Link></li>
               <li className='navbar__item' ><Link activeClass="isActive" to="about" spy={true} smooth={true} offset={-75} duration={500} onClick={clicked ? handlerClick : ''} href='#about'>Acerca de</Link></li>
-              <li className='navbar__item' ><Link activeClass="isActive" to="ataques" spy={true} smooth={true} offset={-75} duration={500} onClick={clicked ? handlerClick : ''} href='#ransomware-infecciones'>Ataques</Link></li>
+              <li className='navbar__item' ><Link activeClass="isActive" to="ataques" spy={true} smooth={true} offset={-75} duration={500} onClick={clicked ? handlerClick : ''} href='#ransomware-infecciones'>Variantes</Link></li>
               <li className='navbar__item' ><Link activeClass="isActive" to="contact" spy={true} smooth={true} offset={-75} duration={500} onClick={clicked ? handlerClick : ''} href='#raas'>Raas</Link></li>
               <li className='navbar__item' ><Link activeClass="isActive" to="footer" spy={true} smooth={true} offset={-75} duration={500} onClick={clicked ? handlerClick : ''} href='#Redes'>Redes</Link></li>
             </ul>
@@ -179,6 +179,7 @@ a{
   @media (min-width: 767px) {
     .burger{
     display: none;
+    z-index:100;
     }
     .navbar__menu.active{
 display: flex;
@@ -189,6 +190,7 @@ box-shadow: none;
 background-color: none;
 width: 600px;
 height: 10%;
+z-index: 100;
 .navbar__links{
     cursor: pointer;
   }
