@@ -1,7 +1,7 @@
-# Sitio web RansomWare 2.0
+# Web site Ransomware Version 2.0
 
 
-## Proyecto creado en react-js
+## Create with React and Sass
 
 
-### ItsIsrael...
+### ..ItsIsrael...
