@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import App from '../App';
 import Petya from '../components/AllPost/02Petya';
 import WannaCry from '../components/AllPost/01WannaCry';
-import Error404 from '../components/Error/Error';
+import Error404 from '../components/Error/404';
 
 const RoutesNav = () => {
   return (
