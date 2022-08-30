@@ -1,10 +1,12 @@
 
+
 .container__prev__icon{
   background-color: rgb(225, 2, 2);
-  height: 100px;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   h1{
     align-self: center;
     font-size: 3rem;
@@ -18,10 +20,11 @@
 .back {
   background: none;
   border: 0;
-  position: relative;
-  height: 60px;
+  position: absolute;
+  height: 50px;
   width: 60px;
-  right: 20px;
+  top: -4px;
+  right: 10px;
 }
 
 .top-left,
@@ -35,7 +38,7 @@
   width: 1.2rem;
   background: white;
   border-radius: 0.2rem;
-  z-index: 2;
+  z-index: 200;
   opacity: 1;
   left: 50%;
 }
@@ -125,8 +128,11 @@
   }
 }
 
+.container__x{
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
 
 /* ----- RESPONSIVE WITH IPHONES ----- */
-@media only screen and (max-width:440px){
-
-}

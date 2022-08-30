@@ -5,6 +5,7 @@ const PreviewPage = () => {
   return (
     <div className='container__prev__icon'>
       <h1><span>R</span>ansom<span>W</span>are</h1>
+      <div className='container__x'>
       <Link to='/' class="back back--one">
         <span class="top-left"></span>
         <span class="top-right"></span>
@@ -13,6 +14,7 @@ const PreviewPage = () => {
         <span class="stalk"></span>
         <span class="text">REGRESAR</span>
       </Link>
+      </div>
     </div>
   )
 }

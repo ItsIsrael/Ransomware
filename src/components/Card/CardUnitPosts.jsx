@@ -5,7 +5,7 @@ const CardUnitPosts = ({ titlePostName, RefImg, description, classNameCustom, sc
 
   return (
 <>
-  <div className={`card ${classNameCustom || ''}`}>
+  <div loading='lazy' className={`card ${classNameCustom || ''}`}>
     <div className="content">
       <h2 className="title">{titlePostName}</h2>
       <p className="copy">{description}</p>
