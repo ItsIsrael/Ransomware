@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c8a5bb9.css",
-    "main.js": "/static/js/main.dd1fd1de.js",
+    "main.css": "/static/css/main.29d55cca.css",
+    "main.js": "/static/js/main.4489ed7c.js",
+    "static/media/raas_illustration_black.png": "/static/media/raas_illustration_black.5b010c059cc45a789cab.png",
     "static/media/WannaCryPage.webp": "/static/media/WannaCryPage.36ee0e96d7a4bb650e03.webp",
     "static/media/ryuk.jpg": "/static/media/ryuk.6019c75de9197ccf4220.jpg",
+    "static/media/BannerFooterRAnsomware.jpg": "/static/media/BannerFooterRAnsomware.9cfb91c6c47bf6f261f9.jpg",
     "static/media/wannacry.jpg": "/static/media/wannacry.e52fffef81e893d70c6a.jpg",
     "static/media/Banner.webp": "/static/media/Banner.89cc4eefcb85cdd62ece.webp",
     "static/media/Ransomware-about .png": "/static/media/Ransomware-about .7e294456fc586314def3.png",
     "static/media/Bad-rabbit.jpg": "/static/media/Bad-rabbit.075d988d01d16cb67aa2.jpg",
     "static/media/petya-ransomware.png": "/static/media/petya-ransomware.03594c661519263cf87b.png",
     "index.html": "/index.html",
-    "main.7c8a5bb9.css.map": "/static/css/main.7c8a5bb9.css.map",
-    "main.dd1fd1de.js.map": "/static/js/main.dd1fd1de.js.map"
+    "main.29d55cca.css.map": "/static/css/main.29d55cca.css.map",
+    "main.4489ed7c.js.map": "/static/js/main.4489ed7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c8a5bb9.css",
-    "static/js/main.dd1fd1de.js"
+    "static/css/main.29d55cca.css",
+    "static/js/main.4489ed7c.js"
   ]
 }
