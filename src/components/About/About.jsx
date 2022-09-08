@@ -36,7 +36,9 @@ align-items: center;
 gap: 10px;
 z-index: -1;
 
-@media only screen and (max-width:600px){
+
+
+@media only screen and (max-width:900px){
     height: 100%;
   }
 
@@ -73,6 +75,8 @@ z-index: -1;
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width:700px ;
+  max-height: 400px;
   height: 80%;
   width: 80%;
   overflow: hidden;
@@ -134,5 +138,10 @@ p{
   transition: all 2s ease;
 }
 
+}
+
+.image__about{
+  max-width: 700px;
+  max-height: 600px;
 }
 `

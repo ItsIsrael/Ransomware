@@ -39,9 +39,7 @@ const Navbar = () => {
           <div>
             <h2 className='title__min__screen__full'><Link to="home" spy={true} smooth={true} offset={-100} duration={500} onClick={clicked ? handlerClick : ''} href='/'><span>R</span>ansom<span>W</span>are </Link></h2>
             <h2 className='title__min__screen'><Link to="home" spy={true} smooth={true} offset={-100} duration={500} onClick={clicked ? handlerClick : ''} href='/'><span>R</span><span>W</span></Link></h2>
-
           </div>
-          {/* ${clicked ? 'navbar__menu active' : 'navbar__menu'} */}
           <div className={` ${clicked ? 'navbar__menu active' : 'navbar__menu'} `}>
             <ul className='navbar__links'>
               <li className='navbar__item' ><Link activeClass="isActive" to="home" spy={true} smooth={true} offset={-100} duration={500} onClick={clicked ? handlerClick : ''} href='/'>Inicio</Link></li>

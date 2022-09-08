@@ -1,20 +1,11 @@
-import styled from "styled-components";
 
+import './Footer.scss'
 const Footer = () => {
   return (
-    <FooterContainer id="footer">
+    <div id="footer">
     <h2>Desarrollado por Israel</h2>
-    </FooterContainer>
+    </div>
   )
 }
 
 export default Footer;
-
-const FooterContainer = styled.div`
-text-align: center;
-width: 100%;
-height: 6vh;
-margin: auto auto;
-color: white;
-background-color: #270331;
-`

@@ -1,10 +1,11 @@
 import styled from "styled-components"
+import Form from "../Formik/Form"
 
 
 const Contact = () => {
   return (
     <ContactContainer id="contact">
-      <h1>Esto es la seccion de los contactos</h1>
+      <Form />
     </ContactContainer>
   )
 }
