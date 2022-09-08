@@ -1,6 +1,6 @@
 {
   "short_name": "React Ransomware",
-  "name": "Create React App Ransomware Israel",
+  "name": "Ransomware Versión 2 | Israel",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,14 +8,14 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "public/ransomware_infectar_PC_destacadajpg-220x192.webp",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "220x192"
     },
     {
-      "src": "logo512.png",
+      "src": "public/proteger-windows-ransomware.webp",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "480x375"
     }
   ],
   "start_url": ".",

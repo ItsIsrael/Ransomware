@@ -5,7 +5,7 @@
 }
 .container__form{
   display: flex;
-  background: url('../../images/raas_illustration_black.png') no-repeat center center/cover;
+  // background: url('../../images/raas_illustration_black.png') no-repeat center center/cover;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -54,7 +54,7 @@
   -webkit-transition: top 200ms ease-in, left 200ms ease-in,
     font-size 200ms ease-in;
   transition: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
-  // background-color: #060b23;
+  background-color: #acb6e8;
   background-color: transparent;
 }
 
