@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.29d55cca.css",
+    "main.css": "/static/css/main.585efd6a.css",
     "main.js": "/static/js/main.4489ed7c.js",
-    "static/media/raas_illustration_black.png": "/static/media/raas_illustration_black.5b010c059cc45a789cab.png",
     "static/media/WannaCryPage.webp": "/static/media/WannaCryPage.36ee0e96d7a4bb650e03.webp",
     "static/media/ryuk.jpg": "/static/media/ryuk.6019c75de9197ccf4220.jpg",
     "static/media/BannerFooterRAnsomware.jpg": "/static/media/BannerFooterRAnsomware.9cfb91c6c47bf6f261f9.jpg",
@@ -12,11 +11,11 @@
     "static/media/Bad-rabbit.jpg": "/static/media/Bad-rabbit.075d988d01d16cb67aa2.jpg",
     "static/media/petya-ransomware.png": "/static/media/petya-ransomware.03594c661519263cf87b.png",
     "index.html": "/index.html",
-    "main.29d55cca.css.map": "/static/css/main.29d55cca.css.map",
+    "main.585efd6a.css.map": "/static/css/main.585efd6a.css.map",
     "main.4489ed7c.js.map": "/static/js/main.4489ed7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.29d55cca.css",
+    "static/css/main.585efd6a.css",
     "static/js/main.4489ed7c.js"
   ]
 }
